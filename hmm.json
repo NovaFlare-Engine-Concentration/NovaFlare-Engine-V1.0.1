@@ -2,10 +2,8 @@
   "dependencies": [
     {
       "name": "lime",
-      "type": "git",
-      "dir": null,
-      "ref": "develop",
-      "url": "https://github.com/beihu235/lime"
+      "type": "haxelib",
+      "version": "7.9.0"
     },
     {
       "name": "openfl",
