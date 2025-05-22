@@ -114,7 +114,6 @@ abstract FlxJsonAsset<T>(OneOfTwo<T, String>) from T from String
 }
 
 typedef FlxShader = #if nme Dynamic #else flixel.graphics.tile.FlxGraphicsShader #end;
-#end
 
 class FlxAssets
 {
@@ -379,4 +378,5 @@ class FlxAssets
 		var graphic:FlxGraphic = FlxGraphic.fromBitmapData(bitmapData);
 		return FlxAtlasFrames.fromSpriteSheetPacker(graphic, Std.string(new VirtualInputData()));
 	}
+	#end
 }
