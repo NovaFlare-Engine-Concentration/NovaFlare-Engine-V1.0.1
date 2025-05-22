@@ -10,7 +10,7 @@
     {
       "name": "openfl",
       "type": "haxelib",
-      "version": "9.1.0"
+      "version": "9.2.2"
     },
     {
       "name": "flixel",
