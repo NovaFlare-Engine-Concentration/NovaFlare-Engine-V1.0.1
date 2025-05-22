@@ -22,7 +22,6 @@ using flixel.util.FlxColorTransformUtil;
  * Used for showing infinitely scrolling backgrounds.
  * @author Chevy Ray
  */
-@:privateAccess(flixel.graphics.FlxGraphic)
 class FlxBackdrop extends FlxSprite
 {
 	var _ppoint:Point;
@@ -317,10 +316,10 @@ class FlxBackdrop extends FlxSprite
 		if (Frame != _tileFrame)
 		{
 			if (_tileFrame != null)
-				_tileFrame.parent.set__useCount(_tileFrame.parent.get__useCount() - 1);
+				_tileFrame.parent.decrementUseCount();
 
 			if (Frame != null)
-				_tileFrame.parent.set__useCount(_tileFrame.parent.get__useCount() + 1);
+				_tileFrame.parent.incrementUseCount();
 		}
 
 		return _tileFrame = Frame;
