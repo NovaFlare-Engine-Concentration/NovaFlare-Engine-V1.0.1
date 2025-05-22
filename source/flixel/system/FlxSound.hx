@@ -1,11 +1,12 @@
 package flixel.system;
-
+#if !macro
 import flash.events.Event;
 import flash.events.IEventDispatcher;
 import flash.media.Sound;
 import flash.media.SoundChannel;
 import flash.media.SoundTransform;
 import flash.net.URLRequest;
+#end
 import flixel.FlxBasic;
 import flixel.FlxG;
 import flixel.math.FlxMath;
