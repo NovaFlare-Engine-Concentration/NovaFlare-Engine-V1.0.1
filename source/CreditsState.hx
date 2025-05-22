@@ -3,7 +3,9 @@ package;
 #if desktop
 import Discord.DiscordClient;
 #end
+#if !macro
 import flash.text.TextField;
+#end
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;

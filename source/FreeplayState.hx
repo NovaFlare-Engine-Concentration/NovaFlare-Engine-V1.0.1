@@ -4,7 +4,9 @@ package;
 import Discord.DiscordClient;
 #end
 import editors.ChartingState;
+#if !macro
 import flash.text.TextField;
+#end
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;

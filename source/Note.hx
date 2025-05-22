@@ -5,9 +5,10 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
+#if !macro
 import flash.display.BitmapData;
 import editors.ChartingState;
-
+#end
 using StringTools;
 
 typedef EventNote = {

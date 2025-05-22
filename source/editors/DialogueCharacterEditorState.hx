@@ -23,7 +23,9 @@ import flixel.ui.FlxButton;
 import openfl.net.FileReference;
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
+#if !macro
 import flash.net.FileFilter;
+#end
 import haxe.Json;
 import DialogueBoxPsych;
 import flixel.FlxCamera;

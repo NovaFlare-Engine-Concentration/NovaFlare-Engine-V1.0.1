@@ -24,7 +24,9 @@ import MenuCharacter;
 import openfl.net.FileReference;
 import openfl.events.Event;
 import openfl.events.IOErrorEvent;
+#if !macro
 import flash.net.FileFilter;
+#end
 import haxe.Json;
 #if sys
 import sys.io.File;

@@ -1,9 +1,11 @@
 package flixel.addons.ui;
 
 import lime.system.Clipboard;
+#if !macro
 import flash.errors.Error;
 import flash.events.KeyboardEvent;
 import flash.geom.Rectangle;
+#end
 import flixel.addons.ui.FlxUI.NamedString;
 import flixel.FlxG;
 import flixel.FlxSprite;

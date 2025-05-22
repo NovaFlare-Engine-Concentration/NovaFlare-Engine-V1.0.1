@@ -20,8 +20,9 @@ import sys.FileSystem;
 import flixel.graphics.FlxGraphic;
 import openfl.display.BitmapData;
 import haxe.Json;
-
+#if !macro
 import flash.media.Sound;
+#end
 
 using StringTools;
 

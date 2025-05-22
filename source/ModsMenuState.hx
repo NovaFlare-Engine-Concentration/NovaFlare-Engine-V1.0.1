@@ -3,7 +3,10 @@ package;
 #if desktop
 import Discord.DiscordClient;
 #end
+#if !macro
 import flash.text.TextField;
+import flash.geom.Rectangle;
+#end
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
@@ -22,7 +25,6 @@ import sys.FileSystem;
 import haxe.Json;
 import haxe.format.JsonParser;
 import openfl.display.BitmapData;
-import flash.geom.Rectangle;
 import flixel.ui.FlxButton;
 import flixel.FlxBasic;
 import sys.io.File;
