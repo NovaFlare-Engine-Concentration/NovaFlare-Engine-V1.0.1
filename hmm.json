@@ -24,7 +24,7 @@
     {
       "name": "flixel-tools",
       "type": "haxelib",
-      "version": "2.5.1"
+      "version": "1.5.1"
     },
     {
       "name": "flixel-ui",
