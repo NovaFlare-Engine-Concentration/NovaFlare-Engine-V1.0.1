@@ -114,7 +114,6 @@ abstract FlxJsonAsset<T>(OneOfTwo<T, String>) from T from String
 }
 
 typedef FlxShader = #if nme Dynamic #else flixel.graphics.tile.FlxGraphicsShader #end;
-#end
 
 class FlxAssets
 {
@@ -211,8 +210,7 @@ class FlxAssets
 		}
 	}
 	#end
-	#end
-	#if (!macro || doc_gen)
+	#ebd
 	// fonts
 	public static var FONT_DEFAULT:String = "Nokia Cellphone FC Small";
 	public static var FONT_DEBUGGER:String = "Monsterrat";
