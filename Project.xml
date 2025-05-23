@@ -167,7 +167,7 @@
 
 	<!--Disable the Flixel core sound tray-->
 	<!--<haxedef name="FLX_NO_SOUND_TRAY" />-->
-
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
 	<!--Disable the Flixel sound management code-->
 	<!--<haxedef name="FLX_NO_SOUND_SYSTEM" />-->
 
