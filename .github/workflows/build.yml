@@ -20,7 +20,7 @@ on:
         type: string
 
 env:
-  HAXE_VERSION: 4.2.5
+  HAXE_VERSION: 4.3.6
   PROJECT_NAME: NovaFlareEngine
 
 jobs:
