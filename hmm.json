@@ -12,7 +12,7 @@
       "type": "haxelib",
       "version": "9.3.3"
     },
-        {
+    {
       "name": "flixel",
       "type": "git",
       "dir": null,
@@ -25,36 +25,37 @@
       "version": "3.2.2"
     },
     {
+      "name": "flixel-ui",
+      "type": "git",
+      "dir": null,
+      "ref": "dev",
+      "url": "https://github.com/MaoPou/flixel-ui-beauty"
+    },
+    {
       "name": "flixel-tools",
       "type": "haxelib",
       "version": "1.5.1"
     },
     {
-      "name": "flixel-ui",
-      "type": "haxelib",
-      "version": "2.4.0"
-    },
-    {
       "name": "hxcpp",
-      "type": "haxelib",
-      "version": "3.2.102"
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/beihu235/hxcpp"
     },
     {
-      "name": "tjson",
-      "type": "haxelib",
-      "version": null
-    },
-    {
-      "name": "hxjsonast",
-      "type": "haxelib",
-      "version": "1.1.0"
-    },
-    {
-      "name": "hxCodec",
+      "name": "hxvlc",
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/SPLCoding/hxCodec-but-it-works-xd.git"
+      "url": "https://github.com/beihu235/hxvlc-1.8.1"
+    },
+    {
+      "name": "SScript",
+      "type": "git",
+      "dir": null,
+      "ref": "main",
+      "url": "https://github.com/beihu235/SScript-8.1.6"
     },
     {
       "name": "hscript",
@@ -67,32 +68,49 @@
       "version": null
     },
     {
-      "name": "discord_rpc",
-      "type": "git",
-      "dir": null,
-      "ref": "master",
-      "url": "https://github.com/Aidan63/linc_discord-rpc"
+      "name": "tjson",
+      "type": "haxelib",
+      "version": null
     },
     {
-      "name": "hscript-ex",
+      "name": "hxdiscord_rpc",
+      "type": "haxelib",
+      "version": null
+    },
+    {
+      "name": "linc_luajit",
       "type": "git",
       "dir": null,
-      "ref": "master",
-      "url": "https://github.com/ianharrigan/hscript-ex"
+      "ref": "main",
+      "url": "https://github.com/MaoPou/linc_luajit-rewriten.git"
+    },
+    {
+      "name": "flxanimate",
+      "type": "git",
+      "dir": null,
+      "ref": "dev",
+      "url": "https://github.com/ShadowMario/flxanimate.git"
     },
     {
       "name": "extension-androidtools",
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/MaysLastPlays-Stuff/extension-androidtools-old.git"
+      "url": "https://github.com/beihu235/extension-androidtools"
     },
     {
-      "name": "linc_luajit",
+      "name": "funkin.vis",
       "type": "git",
       "dir": null,
-      "ref": "master",
-      "url": "https://github.com/nebulazorua/linc_luajit"
+      "ref": "main",
+      "url": "https://github.com/beihu235/funkVis-FrequencyFixed"
+    },
+    {
+      "name": "grig.audio",
+      "type": "git",
+      "dir": "src",
+      "ref": "57f5d47f2533fd0c3dcd025a86cb86c0dfa0b6d2",
+      "url": "https://gitlab.com/haxe-grig/grig.audio.git"
     }
   ]
 }
