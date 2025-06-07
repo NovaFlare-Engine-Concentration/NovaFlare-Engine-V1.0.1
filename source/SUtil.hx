@@ -2,7 +2,7 @@ package;
 
 #if android
 import android.Tools;
-import android.PermissionsList;
+import android.Permissions;
 import android.PermissionsList;
 #end
 import lime.app.Application;
@@ -44,13 +44,13 @@ class SUtil
 	public static function doTheCheck()
 	{
 		#if android
-		if (!PermissionsList.getGrantedPermissionsList().contains(PermissionsList.READ_EXTERNAL_STORAGE) || !PermissionsList.getGrantedPermissionsList().contains(PermissionsList.WRITE_EXTERNAL_STORAGE))
+		if (!Permissions.getGrantedPermissions.contains(PermissionsList.READ_EXTERNAL_STORAGE) || !Permissions.getGrantedPermissionsList().contains(PermissionsList.WRITE_EXTERNAL_STORAGE))
 		{
-			PermissionsList.requestPermissionsList([PermissionsList.READ_EXTERNAL_STORAGE, PermissionsList.WRITE_EXTERNAL_STORAGE]);
+			Permissions.requestPermissionsList([PermissionsList.READ_EXTERNAL_STORAGE, PermissionsList.WRITE_EXTERNAL_STORAGE]);
 			SUtil.applicationAlert('PermissionsList', "if you acceptd the permissionslist all good if not expect a crash" + '\n' + 'Press Ok to see what happens');
 		}
 
-		if (PermissionsList.getGrantedPermissionsList().contains(PermissionsList.READ_EXTERNAL_STORAGE) || PermissionsList.getGrantedPermissionsList().contains(PermissionsList.WRITE_EXTERNAL_STORAGE))
+		if (Permissions.getGrantedPermissionsList().contains(PermissionsList.READ_EXTERNAL_STORAGE) || Permissions.getGrantedPermissionsList().contains(PermissionsList.WRITE_EXTERNAL_STORAGE))
 		{
 			if (!FileSystem.exists(Tools.getExternalStorageDirectory() + '/' + '.' + Application.current.meta.get('file')))
 				FileSystem.createDirectory(Tools.getExternalStorageDirectory() + '/' + '.' + Application.current.meta.get('file'));
